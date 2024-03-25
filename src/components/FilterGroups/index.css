@@ -1,0 +1,25 @@
+.filter-group-container {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 300px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  background-position: center;
+  border-radius: 10px;
+}
+.list-job-contianer {
+  list-style-type: none;
+  padding: 0;
+}
+label{
+  font-family: Cambria, Cochin;
+  font-size: 15px;
+  color: white;
+  gap: 10px;
+}
+li{
+  gap: 10px;
+}

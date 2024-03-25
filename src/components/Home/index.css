@@ -1,0 +1,46 @@
+.home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.home-heeader {
+  font-family: Cambria, Cochin;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.home-description {
+  font-family: Cambria, Cochin;
+  font-size: 25px;
+  font-weight: 500;
+  color: gray;
+}
+
+.findJobs-button {
+  background-color: #6366f1;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+  }
+}

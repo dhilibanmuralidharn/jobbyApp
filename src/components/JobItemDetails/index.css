@@ -1,0 +1,80 @@
+.jobItem-detailed-container {
+  padding: 20px 30px;
+  background-color: #272727;
+}
+.job-item-card-container {
+  background-color: #2c364c;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+}
+.job-item-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.job-location-container {
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+.job-type-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-logo {
+  width: 100%;
+  max-width: 80px;
+}
+h1 {
+  font-family: Cambria, Cochin;
+  font-size: 20px;
+  color: white;
+}
+p {
+  font-family: Cambria, Cochin;
+  font-size: 15px;
+  color: white;
+}
+.star-icon {
+  color: yellow;
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 30px;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.life-at-company-conatainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.company-image {
+  width: 100%;
+  max-width: 250px;
+}
+.similarjob-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.skils-logo{
+  width: 100%;
+  max-width: 80px;
+}

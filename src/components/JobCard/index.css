@@ -1,0 +1,41 @@
+.job-card-container {
+  background-color: #272727;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  width: 800px;
+}
+.job-card-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.job-location-container {
+  display: flex;
+  gap: 15px;
+}
+.job-type-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-logo {
+  width: 100%;
+  max-width: 100px;
+}
+h1 {
+  font-family: Cambria, Cochin;
+  font-size: 20px;
+  color: white;
+}
+p {
+  font-family: Cambria, Cochin;
+  font-size: 15px;
+  color: white;
+}
+.star-icon {
+  color: yellow;
+}
